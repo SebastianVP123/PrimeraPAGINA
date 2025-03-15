@@ -1,0 +1,116 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-g1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+.header-g1 img {
+    max-height: 50px;
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav1 ul{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav1 li{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.main1 {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+.main1 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 5px blue;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.main1 > div:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.main1 section {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: auto;
+    padding-bottom: auto;
+}
+
+.main1 h1 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.main1 h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.main1 ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.f1 {
+    text-align: center;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.f1 a {
+    color: yellow;
+    text-decoration: none;
+}
